@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karst\\OneDrive\\Documents\\COMPUTER PROGRAMMING COURSE\\Term 1 - Winter 2023\\3 - Programming Fundamentals\\Game\\island\\Island.csproj": {}
+    "C:\\Users\\Karsten\\Documents\\Georgian Programming and School\\Programming Foundations\\island\\Island.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karst\\OneDrive\\Documents\\COMPUTER PROGRAMMING COURSE\\Term 1 - Winter 2023\\3 - Programming Fundamentals\\Game\\island\\Island.csproj": {
+    "C:\\Users\\Karsten\\Documents\\Georgian Programming and School\\Programming Foundations\\island\\Island.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karst\\OneDrive\\Documents\\COMPUTER PROGRAMMING COURSE\\Term 1 - Winter 2023\\3 - Programming Fundamentals\\Game\\island\\Island.csproj",
+        "projectUniqueName": "C:\\Users\\Karsten\\Documents\\Georgian Programming and School\\Programming Foundations\\island\\Island.csproj",
         "projectName": "Island",
-        "projectPath": "C:\\Users\\karst\\OneDrive\\Documents\\COMPUTER PROGRAMMING COURSE\\Term 1 - Winter 2023\\3 - Programming Fundamentals\\Game\\island\\Island.csproj",
-        "packagesPath": "C:\\Users\\karst\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karst\\OneDrive\\Documents\\COMPUTER PROGRAMMING COURSE\\Term 1 - Winter 2023\\3 - Programming Fundamentals\\Game\\island\\obj\\",
+        "projectPath": "C:\\Users\\Karsten\\Documents\\Georgian Programming and School\\Programming Foundations\\island\\Island.csproj",
+        "packagesPath": "C:\\Users\\Karsten\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Karsten\\Documents\\Georgian Programming and School\\Programming Foundations\\island\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\karst\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Karsten\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"

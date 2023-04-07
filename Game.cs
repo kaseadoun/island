@@ -354,7 +354,7 @@ namespace Island
             Clear();
             switch (selectedOption)
             {
-                case 1:
+                case 0:
                     timeAdd(90);
                     if (inventory.Contains("Axe"))
                     {
@@ -379,7 +379,7 @@ namespace Island
                     falseSet();
                     jungle = true;
                     break;
-                case 2:
+                case 1:
                     timeAdd(120);
                     if (inventory.Contains("Rope"))
                     {
@@ -392,12 +392,13 @@ namespace Island
                         WriteLine("========================================================================================");
                         WriteLine("You search the whole jungle. The only thing you were able to find was a rope. This seems\nlike it can get you to high places.");
                         WriteLine("========================================================================================");
+                        inventory.Add("Rope");
                     }
                     ReadKey();
                     falseSet();
                     jungle = true;
                     break;
-                case 3:
+                case 2:
                     timeAdd(45);
                     ReadKey();
                     falseSet();
@@ -412,8 +413,18 @@ namespace Island
 
         private void timeAdd(int time)
         {   
-            while (time >= 60)
-            {
+            int minutes = _time % 100;
+            int minutesTillHour = 60 - minutes;
+            if (minutes % 100 == 60) {
+                _time -= 60;
+                _time += 100;
+            }
+            if (minutes + time >= 60 ) {
+                _time -= minutes;
+                _time += 100;
+                time -= minutesTillHour;
+            }
+            while (time >= 60) {
                 _time += 100;
                 time -= 60;
             }
