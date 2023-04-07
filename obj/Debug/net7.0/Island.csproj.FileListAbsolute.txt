@@ -1,0 +1,30 @@
+C:\Users\Karsten\Documents\Georgian Programming and School\Programming Foundations\Island\bin\Debug\net7.0\Island.exe
+C:\Users\Karsten\Documents\Georgian Programming and School\Programming Foundations\Island\bin\Debug\net7.0\Island.deps.json
+C:\Users\Karsten\Documents\Georgian Programming and School\Programming Foundations\Island\bin\Debug\net7.0\Island.runtimeconfig.json
+C:\Users\Karsten\Documents\Georgian Programming and School\Programming Foundations\Island\bin\Debug\net7.0\Island.dll
+C:\Users\Karsten\Documents\Georgian Programming and School\Programming Foundations\Island\bin\Debug\net7.0\Island.pdb
+C:\Users\Karsten\Documents\Georgian Programming and School\Programming Foundations\Island\obj\Debug\net7.0\Island.csproj.AssemblyReference.cache
+C:\Users\Karsten\Documents\Georgian Programming and School\Programming Foundations\Island\obj\Debug\net7.0\Island.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Karsten\Documents\Georgian Programming and School\Programming Foundations\Island\obj\Debug\net7.0\Island.AssemblyInfoInputs.cache
+C:\Users\Karsten\Documents\Georgian Programming and School\Programming Foundations\Island\obj\Debug\net7.0\Island.AssemblyInfo.cs
+C:\Users\Karsten\Documents\Georgian Programming and School\Programming Foundations\Island\obj\Debug\net7.0\Island.csproj.CoreCompileInputs.cache
+C:\Users\Karsten\Documents\Georgian Programming and School\Programming Foundations\Island\obj\Debug\net7.0\Island.dll
+C:\Users\Karsten\Documents\Georgian Programming and School\Programming Foundations\Island\obj\Debug\net7.0\refint\Island.dll
+C:\Users\Karsten\Documents\Georgian Programming and School\Programming Foundations\Island\obj\Debug\net7.0\Island.pdb
+C:\Users\Karsten\Documents\Georgian Programming and School\Programming Foundations\Island\obj\Debug\net7.0\Island.genruntimeconfig.cache
+C:\Users\Karsten\Documents\Georgian Programming and School\Programming Foundations\Island\obj\Debug\net7.0\ref\Island.dll
+C:\Users\karst\OneDrive\Documents\COMPUTER PROGRAMMING COURSE\Term 1 - Winter 2023\3 - Programming Fundamentals\Game\island\bin\Debug\net7.0\Island.exe
+C:\Users\karst\OneDrive\Documents\COMPUTER PROGRAMMING COURSE\Term 1 - Winter 2023\3 - Programming Fundamentals\Game\island\bin\Debug\net7.0\Island.deps.json
+C:\Users\karst\OneDrive\Documents\COMPUTER PROGRAMMING COURSE\Term 1 - Winter 2023\3 - Programming Fundamentals\Game\island\bin\Debug\net7.0\Island.runtimeconfig.json
+C:\Users\karst\OneDrive\Documents\COMPUTER PROGRAMMING COURSE\Term 1 - Winter 2023\3 - Programming Fundamentals\Game\island\bin\Debug\net7.0\Island.dll
+C:\Users\karst\OneDrive\Documents\COMPUTER PROGRAMMING COURSE\Term 1 - Winter 2023\3 - Programming Fundamentals\Game\island\bin\Debug\net7.0\Island.pdb
+C:\Users\karst\OneDrive\Documents\COMPUTER PROGRAMMING COURSE\Term 1 - Winter 2023\3 - Programming Fundamentals\Game\island\obj\Debug\net7.0\Island.csproj.AssemblyReference.cache
+C:\Users\karst\OneDrive\Documents\COMPUTER PROGRAMMING COURSE\Term 1 - Winter 2023\3 - Programming Fundamentals\Game\island\obj\Debug\net7.0\Island.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karst\OneDrive\Documents\COMPUTER PROGRAMMING COURSE\Term 1 - Winter 2023\3 - Programming Fundamentals\Game\island\obj\Debug\net7.0\Island.AssemblyInfoInputs.cache
+C:\Users\karst\OneDrive\Documents\COMPUTER PROGRAMMING COURSE\Term 1 - Winter 2023\3 - Programming Fundamentals\Game\island\obj\Debug\net7.0\Island.AssemblyInfo.cs
+C:\Users\karst\OneDrive\Documents\COMPUTER PROGRAMMING COURSE\Term 1 - Winter 2023\3 - Programming Fundamentals\Game\island\obj\Debug\net7.0\Island.csproj.CoreCompileInputs.cache
+C:\Users\karst\OneDrive\Documents\COMPUTER PROGRAMMING COURSE\Term 1 - Winter 2023\3 - Programming Fundamentals\Game\island\obj\Debug\net7.0\Island.dll
+C:\Users\karst\OneDrive\Documents\COMPUTER PROGRAMMING COURSE\Term 1 - Winter 2023\3 - Programming Fundamentals\Game\island\obj\Debug\net7.0\refint\Island.dll
+C:\Users\karst\OneDrive\Documents\COMPUTER PROGRAMMING COURSE\Term 1 - Winter 2023\3 - Programming Fundamentals\Game\island\obj\Debug\net7.0\Island.pdb
+C:\Users\karst\OneDrive\Documents\COMPUTER PROGRAMMING COURSE\Term 1 - Winter 2023\3 - Programming Fundamentals\Game\island\obj\Debug\net7.0\Island.genruntimeconfig.cache
+C:\Users\karst\OneDrive\Documents\COMPUTER PROGRAMMING COURSE\Term 1 - Winter 2023\3 - Programming Fundamentals\Game\island\obj\Debug\net7.0\ref\Island.dll
