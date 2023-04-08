@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Island;
 class Program
@@ -7,9 +7,6 @@ class Program
     {
         Game newGame = new Game();
         newGame.startMenu();
-        while (newGame.gamePlaying) {
-            newGame.runGame();
-        }
-        Console.WriteLine("Thanks for Playing!");
+        newGame.runGame();
     }
 }
