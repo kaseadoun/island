@@ -447,7 +447,7 @@ namespace Island
                     break;
                 case 1:
                     timeAdd(30);
-                    if (shipwreckUpperDeck == false)
+                    if (inventory.Contains("Rope") && shipwreckUpperDeck == false)
                     {
                         WriteLine("========================================================================================");
                         WriteLine("You got up to the upper part of the ship. You found an old pistol with one bullet. Looks\nlike it still works.");
@@ -455,10 +455,15 @@ namespace Island
                         shipwreckUpperDeck = true;
                         inventory.Add("Gun");
                     }
-                    else
+                    else if (!inventory.Contains("Rope"))
                     {
                         WriteLine("========================================================================================");
                         WriteLine("You try to find somewhere to get to the upper deck, but there is no way up. You're\ngoing to need something to get up.");
+                        WriteLine("============================ Press Any Key to Continue =================================");
+                    }
+                    else if (inventory.Contains("Rope") && shipwreckUpperDeck == true) {
+                        WriteLine("========================================================================================");
+                        WriteLine("You got up to the upper part of the ship. You find nothing else.");
                         WriteLine("============================ Press Any Key to Continue =================================");
                     }
                     ReadKey();
@@ -498,7 +503,7 @@ namespace Island
                     else if (jungleTreeCut == true)
                     {
                         WriteLine("========================================================================================");
-                        WriteLine("You try to cut down another tree. Unfortunately, your axe is too blunt to cut it down in\time. So you give up.");
+                        WriteLine("You try to cut down another tree. Unfortunately, your axe is too blunt to cut it down in\ntime. So you give up.");
                         WriteLine("============================ Press Any Key to Continue =================================");
                     }
                     else if (jungleTreeCut == false && !inventory.Contains("Axe"))
