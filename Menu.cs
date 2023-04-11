@@ -40,7 +40,8 @@ namespace Island
             _selectedIndex = 0;
         }
 
-        public Menu(string prompt, Dictionary<string, int> locations) {
+        public Menu(string prompt, Dictionary<string, int> locations)
+        {
             _prompt = prompt;
             _location = locations;
             _selectedIndex = 0;
@@ -77,7 +78,7 @@ namespace Island
                 WriteLine($"  {currentItem}");
             }
         }
-
+        // Method to display inventory with picking option
         private void displayPickInventory()
         {
             for (int i = 0; i < _inventoryOptions.Count; i++)
@@ -97,10 +98,10 @@ namespace Island
                 WriteLine($"{choice} {currentItem}");
             }
         }
-
+        // Display build menu options
         private void displayBuild()
         {
-            for (int i = 0; i < _buildOptions.Length/2; i++)
+            for (int i = 0; i < _buildOptions.Length / 2; i++)
             {
                 string currentItem = $"{_buildOptions[i, 0]}  {_buildOptions[i, 1]}";
                 string choice;
@@ -117,7 +118,7 @@ namespace Island
                 WriteLine($"{choice} {currentItem}");
             }
         }
-
+        // Display location menu options
         private void displayLocation()
         {
             for (int i = 0; i < _location.Count; i++)
@@ -162,7 +163,7 @@ namespace Island
 
             return _selectedIndex;
         }
-
+        // Run inventory method
         public void runInventoryMenu()
         {
             ConsoleKey pressedKey;
@@ -176,7 +177,7 @@ namespace Island
                 pressedKey = Console.ReadKey(true).Key;
             } while (pressedKey != ConsoleKey.Enter);
         }
-
+        // Run inventory method that allows the player to pick and choose with arrow keys
         public string runPickInventoryMenu()
         {
             ConsoleKey pressedKey;
@@ -200,7 +201,7 @@ namespace Island
 
             return _inventoryOptions[_selectedIndex];
         }
-
+        // Run build menu method that allows the player to pick and choose with arrow keys
         public int runBuildMenu()
         {
             ConsoleKey pressedKey;
@@ -216,7 +217,7 @@ namespace Island
                 {
                     _selectedIndex--;
                 }
-                else if (pressedKey == ConsoleKey.DownArrow && _selectedIndex != _buildOptions.Length/2 - 1)
+                else if (pressedKey == ConsoleKey.DownArrow && _selectedIndex != _buildOptions.Length / 2 - 1)
                 {
                     _selectedIndex++;
                 }
@@ -224,7 +225,8 @@ namespace Island
 
             return _selectedIndex;
         }
-        
+        // Run map menu method that allows the player to pick and choose with arrow keys
+
         public int runLocationMenu()
         {
             ConsoleKey pressedKey;

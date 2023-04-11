@@ -7,6 +7,14 @@ class Program
     {
         Game newGame = new Game();
         newGame.startMenu();
-        newGame.runGame();
+        try
+        {
+            newGame.runGame();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine("The game was unable to run.");
+            Console.WriteLine("Thanks for trying to play!");
+        }
     }
 }

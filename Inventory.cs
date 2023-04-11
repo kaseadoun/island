@@ -20,7 +20,7 @@ _|_| \| \/ [___| \|  |  |__||  \ |
         public Inventory(List<string> inventory) {
             _inventory = inventory;
         }
-
+        // Method to be called to display menu
         public void displayInventory() {
             Menu inventoryMenu = new Menu(inventoryPrompt, _inventory);
             if (_inventory.Count == 0) {
@@ -30,6 +30,7 @@ _|_| \| \/ [___| \|  |  |__||  \ |
             _inventory.Remove("You have no items.");
         }
         
+        // Method for different menu. Is called when the player picks the build option
         public string pickItemInventory() {
             string item;
             Menu inventoryMenu = new Menu(inventoryPrompt, _inventory);

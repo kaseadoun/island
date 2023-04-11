@@ -78,7 +78,7 @@ namespace Island
         }
 
         // Beginning dialogue for the player to understand the premise and reason for the game
-        private void beginningDialogue()
+        private static void beginningDialogue()
         {
             Clear();
             WriteLine("=====================================================================================");
@@ -622,7 +622,7 @@ namespace Island
             }
             _time += time;
         }
-
+        // Method for the flare shooting action
         private void flareShot()
         {
             Clear();
@@ -657,7 +657,7 @@ namespace Island
                 cannibalSequence();
             }
         }
-
+        // Game Ending Sequence
         private void cannibalSequence()
         {
             Clear();
@@ -819,7 +819,7 @@ namespace Island
             }
             endGame();
         }
-
+        // End Game Method
         private void endGame()
         {
             WriteLine("======================================================");
