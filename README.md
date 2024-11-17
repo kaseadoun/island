@@ -1,5 +1,11 @@
 # ISLAND - Final Project for Programming Fundamentals
 
+## How to Run the Game
+
+1. Clone the repository with ```git clone https://github.com/kaseadoun/island.git```
+2. Enter ```dotnet run``` in the terminal.
+3. Have fun!
+
 ## Original Concept
 
 The original concept of this game was a resource management game. The following resources were to be managed:
